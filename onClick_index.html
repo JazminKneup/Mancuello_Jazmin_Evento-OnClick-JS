@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <input type="text" class="search-bar" placeholder="Search">
+        <button class="btn-login" onclick="toggleLogin()">Login</button>
+    </div>
+    <div class="container">
+        <div class="left-column">
+            <div class="card">
+                <h1>ninja</h1>
+                <h2>noun</h2>
+                <div class="card-content">
+                    <h4>Plural: ninjas</h4>
+                    <p class="text_ninja">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+                <button class="btn-likes" onclick="likeNinja()">13 likes</button>
+            </div>
+            <div class="card">
+                <h1>ninja</h1>
+                <h2>noun</h2>
+                <div class="card-content">
+                    <h4>Plural: ninjas</h4>
+                    <p class="text_ninja">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+                <button class="btn-likes" onclick="likeNinja()">37 likes</button>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="definition-box">
+                <h1>Dojonary is</h1> 
+                <h1> defined by <strong>YOU</strong></h1>
+                <button class="btn-add-definition" onclick="removeButton()">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script/onClick.js"></script>
+</body>
+</html>
